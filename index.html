@@ -1,49 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Home - Atividades Web 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+	<style>
+		body {
+			background: #0d1117;
+			color: #c9d1d9;
+			font-family: 'Segoe UI', 'Liberation Sans', Arial, sans-serif;
+			margin: 0;
+			min-height: 100vh;
+		}
+		header {
+			background: #161b22;
+			padding: 32px 0 16px 0;
+			text-align: center;
+			border-bottom: 1px solid #30363d;
+		}
+		   header img {
+			   width: 64px;
+			   vertical-align: middle;
+			   margin-right: 12px;
+		   }
+		h1 {
+			display: inline;
+			font-size: 2.2rem;
+			color: #fff;
+		}
+		main {
+			max-width: 600px;
+			margin: 40px auto;
+			background: #161b22;
+			border-radius: 10px;
+			box-shadow: 0 2px 16px #0004;
+			padding: 32px 24px;
+		}
+		h2 {
+			color: #58a6ff;
+			margin-top: 0;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+		li {
+			margin: 18px 0;
+		}
+		a {
+			color: #58a6ff;
+			text-decoration: none;
+			font-size: 1.1rem;
+			transition: color 0.2s;
+		}
+		a:hover {
+			color: #79c0ff;
+			text-decoration: underline;
+		}
+		footer {
+			text-align: center;
+			color: #8b949e;
+			margin: 40px 0 16px 0;
+			font-size: 0.95rem;
+		}
+	</style>
 </head>
 <body>
-    <h1><strong>SOBRE MIM</strong></h1>
-    <p>Meu Nome é Gabriel Nossa Theodoro, tenho 20 anos e sou estudante de Sistemas de Informação no IFSP.</p>
-
-    <h2>Meus Hobbies</h2>
-    <ul>
-        <li>Jogar Video Game</li>
-        <li>Ler livros</li>
-        <li>Programar</li>
-    </ul>
-
-    <h2>Minhas Habilidades</h2>
-    <p>Tenho algumas habilidades em html e css, além de ter um conhecimento basico de java e python.</p>
-
-    <img src="Foto.jpeg" alt="" width="400" height="500">
-    <p>Se quiser saber mais de uma olhada no meu  <a href="https://github.com/settings/profile" target="_blank">GitHub</a></p>
-
-    <h2>Contato</h2>
-    <p>para fazer contato utilize:</p>
-    <ul>
-        <li>Email: gabrielnossathedoro@gmail.com</li>
-        <li>Telefone: 17 99626-1008.</li>
-        </li>
-    </ul>
-
-    <h2>Redes Sociais</h2>
-    <ul>
-        <li><a href="https://www.instagram.com/gaba.nss/" target="_blank">Instagram</a></li>
-        <li><a href="https://www.linkedin.com/in/gabriel-nossa-theodoro-5948362ba" target="_blank">Linkedin</a></li>
-
-    </ul>
-
-    <h2>Mais sobre mim</h2>
-    <ul>
-        <li>Gosto muito de ouvir músicas, deixei aqui uma <a href="Aula2_Musicas.html">playlist</a> para você conferir.</li>
-        <li>Gosto muito de um doce chamado espera marido, se quiser saber mais <a href="Aula2_receita.html">Clique aqui</a>.</li>
-    </ul>
-    
-
-    
+	<header>
+		<img src="github_icon.png" alt="GitHub logo">
+		<h1>Atividades Web 1</h1>
+	</header>
+	<main>
+		<h2>Explorador de Pastas</h2>
+		<ul id="folder-list">
+			<li>
+				<span class="folder" onclick="toggleFolder('Aula1')">📁 Aula1</span>
+				<ul class="file-list" id="Aula1" style="display:none">
+					<li><a href="Aula1_Ex1.html">Aula1_Ex1.html</a></li>
+					<li><a href="Aula1_Ex2.html">Aula1_Ex2.html</a></li>
+				</ul>
+			</li>
+			<li>
+				<span class="folder" onclick="toggleFolder('Aula2')">📁 Aula2</span>
+				<ul class="file-list" id="Aula2" style="display:none">
+					<li><a href="Aula2_Ex2.html">Aula2_Ex2.html</a></li>
+					<li><a href="Aula2_receita.html">Aula2_receita.html</a></li>
+				</ul>
+			</li>
+			<li>
+				<span class="folder" onclick="toggleFolder('Aula3')">📁 Aula3</span>
+				<ul class="file-list" id="Aula3" style="display:none">
+					<li><a href="Aula3/Aula3_Menu.html">Aula3_Menu.html</a></li>
+					<li><a href="Aula3/Aula3_TabelaSimples.html">Aula3_TabelaSimples.html</a></li>
+					<li><a href="Aula3/Aula3_Tabelascomcolspanerowspan.html">Aula3_Tabelascomcolspanerowspan.html</a></li>
+					<li><a href="Aula3/Aula3_ReceitaLista.html">Aula3_ReceitaLista.html</a></li>
+				</ul>
+			</li>
+			<li>
+				<span class="folder" onclick="toggleFolder('Aula4')">📁 Aula4</span>
+				<ul class="file-list" id="Aula4" style="display:none">
+					<li><a href="Aula4/Aula4_Bordas.html">Aula4_Bordas.html</a></li>
+				</ul>
+			</li>
+		</ul>
+	</main>
+	<footer>
+		&copy; 2025 - Desenvolvido por Gabriel Nossa Theodoro | Inspirado no tema do GitHub
+	</footer>
+	<script>
+		function toggleFolder(folderId) {
+			var el = document.getElementById(folderId);
+			if (el.style.display === 'none') {
+				el.style.display = 'block';
+			} else {
+				el.style.display = 'none';
+			}
+		}
+	</script>
 </body>
 </html>
