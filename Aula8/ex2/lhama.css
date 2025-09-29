@@ -1,0 +1,62 @@
+.fonte{
+  font-family: 'Lobster', cursive;
+}
+
+.divVerde{
+  background-color: rgb(110, 207, 110);
+  width: 1700px;
+  border-top: 10px solid rgb(4, 0, 253);
+  border-bottom: 10px solid rgb(4, 0, 253);
+  
+}
+
+.divVermelha{
+  background-color: rgb(212, 123, 123);
+  width: 1700px;
+  border-top: 10px solid rgb(240, 15, 15);
+  border-bottom: 10px solid rgb(240, 15, 15);
+}
+
+.tamanho1{
+    margin: 10px;
+    width: 100px;
+}
+.tamanho2{
+    margin: 5px;
+    width: 200px;
+}
+.tamanho3{
+    margin: 5px;
+    width: 300px;
+}
+.tamanho4{
+    margin: 5px;
+    width: 400px;
+}
+
+.tamanho5{
+    margin: 20px 20px 20px 500px;
+    width: 400px;
+    
+}
+
+.tamanho6{
+    margin: 20px;
+    width: 300px;
+    
+}
+
+.tamanho7{
+    margin: 20px;
+    width: 200px;
+    
+}
+
+.tamanho8{
+    margin: 20px;
+    width: 100px;
+    
+}
+
+
+
