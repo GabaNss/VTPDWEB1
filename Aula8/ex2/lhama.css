@@ -1,62 +1,66 @@
-.fonte{
+.fonte {
   font-family: 'Lobster', cursive;
 }
 
-.divVerde{
+.fontedireita {
+  font-family: 'Lobster', cursive;
+  text-align: right;
+}
+
+.divVerde {
   background-color: rgb(110, 207, 110);
-  width: 1700px;
-  border-top: 10px solid rgb(4, 0, 253);
-  border-bottom: 10px solid rgb(4, 0, 253);
-  
+  width: 90%;
+  border-top: 0.6rem solid rgb(4, 0, 253);
+  border-bottom: 0.6rem solid rgb(4, 0, 253);
 }
 
-.divVermelha{
+.divVermelha {
   background-color: rgb(212, 123, 123);
-  width: 1700px;
-  border-top: 10px solid rgb(240, 15, 15);
-  border-bottom: 10px solid rgb(240, 15, 15);
+  width: 90%;
+  border-top: 0.6rem solid rgb(240, 15, 15);
+  border-bottom: 0.6rem solid rgb(240, 15, 15);
 }
 
-.tamanho1{
-    margin: 10px;
-    width: 100px;
-}
-.tamanho2{
-    margin: 5px;
-    width: 200px;
-}
-.tamanho3{
-    margin: 5px;
-    width: 300px;
-}
-.tamanho4{
-    margin: 5px;
-    width: 400px;
+.tamanho1 {
+  margin: 0.6rem;
+  width: 6rem;
 }
 
-.tamanho5{
-    margin: 20px 20px 20px 500px;
-    width: 400px;
-    
+.tamanho2 {
+  margin: 0.3rem;
+  width: 12rem;
 }
 
-.tamanho6{
-    margin: 20px;
-    width: 300px;
-    
+.tamanho3 {
+  margin: 0.3rem;
+  width: 18rem;
 }
 
-.tamanho7{
-    margin: 20px;
-    width: 200px;
-    
+.tamanho4 {
+  margin: 0.3rem;
+  width: 24rem;
 }
 
-.tamanho8{
-    margin: 20px;
-    width: 100px;
-    
+.tamanho5 {
+  margin: 1.2rem 1.2rem 1.2rem 30%;
+  width: 24rem;
 }
+
+.tamanho6 {
+  margin: 1.2rem;
+  width: 18rem;
+}
+
+.tamanho7 {
+  margin: 1.2rem;
+  width: 12rem;
+}
+
+.tamanho8 {
+  margin: 1.2rem;
+  width: 6rem;
+}
+
 
 
 
